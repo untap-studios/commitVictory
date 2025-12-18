@@ -3,7 +3,8 @@ A little tool I created to display the Dark Souls font and sound effect upon com
 For global installation, clone this repo, then run:
 
 `git config --global core.hooksPath "/c/Users/file/to/victory/hooks/"`
-Ensure the path ends at the folder containing the post-commit script
 
-`chmod +x "/c/Users/crmgu/repos/victory/hooks/post-commit"`
+Ensure the path ends at the folder containing the post-commit script and not the file itself
+
+`chmod +x "/c/Users/file/to/victory/hooks/post-commit"`
 Allow execution
